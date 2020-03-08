@@ -1,7 +1,8 @@
-
+import excelify
 
 def main():
-    pass
+    text = open("/home/chanwoo/PycharmProjects/crawler/data.txt", 'r')
+    excelify.json_to_csv(text)
 
 
 
